@@ -3,4 +3,5 @@
 select * from alunos
 where nome_aluno like 'A%';
 
-/*Resultado: Ana Lima*/
+/*Resultado: 
+Ana Lima*/
