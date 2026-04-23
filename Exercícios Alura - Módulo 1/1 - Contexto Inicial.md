@@ -2,7 +2,7 @@
 
 Imagine que você seja o responsável por criar e gerenciar um banco de dados para uma escola. Esse banco de dados ajudará a organizar informações importantes sobre alunos, professores, disciplinas, turmas e notas.
 
-# Desafio:
+# Desafio 1:
 Sua missão é dar os primeiros passos para configurar e usar esse banco de dados.
 
 ### 1 - Criar tabelas:
@@ -54,3 +54,21 @@ OBS.: Os dois campos juntos formam a chave primaria da tabela
 - **ID da Disciplina:** Uma chave estrangeira que faz referência à disciplina.
 - **Valor da Nota:** A nota atribuída ao aluno na disciplina.
 - **Data da Avaliação:** A data em que a avaliação foi realizada.
+
+# Desafio 2:
+Vamos considerar algumas consultas típicas que podem ser realizadas em um sistema de gerenciamento escolar.
+
+### Consulta 1: 
+Retornar a média de Notas dos Alunos em história.
+
+### Consulta 2: 
+Retornar as informações dos alunos cujo Nome começa com 'A'.
+
+### Consulta 3: 
+Buscar apenas os alunos que fazem aniversário em fevereiro.
+
+### Consulta 4: 
+Realizar uma consulta que calcula a idade dos Alunos.
+
+### Consulta 5: 
+Retornar se o aluno está ou não aprovado. Aluno é considerado aprovado se a sua nota foi igual ou maior que 6.
