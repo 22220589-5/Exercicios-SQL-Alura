@@ -13,3 +13,15 @@ UNION ALL
 SELECT COUNT(*) as Quantidade, 'Produtos' as Tabela FROM produtos
 UNION ALL
 SELECT COUNT(*) as Quantidade, 'Vendas' as Tabela FROM vendas;
+
+/*
+Resultado:
+Quantidade - Tabela
+5 - Categorias
+10000 - Clientes
+10 - Fornecedores
+150034 - ItensVenda
+10 - Marcas
+10000 - Produtos
+50000 - Vendas
+*/
