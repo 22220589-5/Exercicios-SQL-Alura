@@ -20,7 +20,9 @@ from (
 
 /*
 Resultado:
+
 Marca - Quantidade_Vendas - Porcentagem
+
 BluePeak - 32059 - 21.37%
 Solar Flare - 22012 - 14.67%
 ZenithWave - 21762 - 14.50%
