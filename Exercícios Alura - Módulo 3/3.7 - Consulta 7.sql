@@ -20,7 +20,9 @@ from (
 
 /*
 Resultado:
+
 Nome_Categoria - Quantidade_Vendas - Porcentagem
+
 Eletrônicos - 43446 - 28.96%
 Vestuáro - 41274 - 27.51%
 Alimentos - 21922 - 14.61%
