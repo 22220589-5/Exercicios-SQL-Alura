@@ -1,4 +1,4 @@
--- Consulta 2: Retornar o nome e a nota do aluno que possui a melhor nota na disciplina de Matemática
+-- Consulta 7: Retornar o nome e a nota do aluno que possui a melhor nota na disciplina de Matemática
 
 -- Ordenando as notas dos alunos da disciplina matemática pelo maior valor e 
 -- destacando o primeiro valor (o maior) com a cláusula LIMIT 1
