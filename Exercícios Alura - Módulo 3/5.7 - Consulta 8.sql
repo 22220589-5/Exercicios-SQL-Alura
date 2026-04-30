@@ -33,16 +33,19 @@ select
     -- Cria a nova coluna com o cálculo da porcentagem da categoria em relação ao total de vendas 2022:
     concat(round((Qtde/Total_Vendas_2022)*100,2), '%') as Porcentagem
 from
-	Vendas_Categoria, Vendas_Geral_2022;
+	Vendas_Categoria, Vendas_Geral_2022
+order by
+	Porcentagem desc;
     
 /*
 Resultado:
 
 Ano - Categoria - Qtde - Porcentagem
+
 2022 - Eletrônicos - 15675 - 28.91%
 2022 - Vestuário - 14873 - 27.43%
 2022 - Alimentos - 7952 - 14.67%
-2022 - Livros - 7832 - 14.44%
 2022 - Esportes - 7889 - 14.55%
+2022 - Livros - 7832 - 14.44%
 
 */
