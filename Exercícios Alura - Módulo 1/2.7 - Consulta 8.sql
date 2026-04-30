@@ -1,4 +1,4 @@
--- Consulta 3: Identificar o total de alunos por turma
+-- Consulta 8: Identificar o total de alunos por turma
 
 select turmas.nome_turma, count(turma_alunos.id_aluno_fk) as quantidade
 from 
