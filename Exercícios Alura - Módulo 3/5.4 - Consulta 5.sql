@@ -1,4 +1,4 @@
--- Consulta 05 - Qual o nome do fornecedor que mais vendeu no primeiro ano disponível na base?
+-- Consulta 05 e 06 - Qual o nome do fornecedor que mais vendeu no primeiro ano disponível na base? E quanto ele vendeu?
 
 with Fornecedores_Vendas_2020 as (
 	select
@@ -20,3 +20,5 @@ select
     max(Qtde) as Vendas
 from 
 	Fornecedores_Vendas_2020;
+    
+-- Resultado: HorizonDistributors - 5093
