@@ -1,4 +1,4 @@
--- Consulta 1: Buscar o nome do professor e a turma que ele é orientador
+-- Consulta 6: Buscar o nome do professor e a turma que ele é orientador
 
 select 
 	professores.nome_professor,  turmas.nome_turma
